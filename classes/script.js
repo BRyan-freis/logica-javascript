@@ -21,14 +21,15 @@ console.log(pessoa2.saudar());
 class Carro {
 
     // Atributos
-    constructor(marca, modelo) {
+    constructor(marca, modelo, preco) {
         this.marca = marca
         this.modelo = modelo
+        this.preco = preco
     }
 
     // Método
     exibirInfo() {
-        return `Carro: ${this.marca} ${this.modelo}`
+        return `Carro: ${this.marca} ${this.modelo} ${this.preco}`
     }
 }
 
